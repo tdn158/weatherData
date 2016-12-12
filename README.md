@@ -9,7 +9,7 @@ to this package.
 
 User inputs a dataframe with a column of zipcodes and the function returns 
 the original dataframe with two new columns -- WeatherStation and 
-isAirport. 
+isAirport. isAirport column is needed for functionality with weatherData package.
 
 <pre><code> # Example Usage
 ##### Input data
@@ -27,8 +27,8 @@ outputData = findWeatherStation(inputData, inputData$Zipcode)
 head(outputData)
 
 HouseNumber     Zipcode     NumberOccupants     WeatherStation    isAirport 
-0004            xxxxx       4                   BSBNK             FALSE           
-0005            xxxxx       2                   LJUVF             FALSE
+0004            xxxxx       4                   BSBNK             airportCode           
+0005            xxxxx       2                   LJUVF             id
 ....            ....        .                   ....              ...
 
 </code></pre>
