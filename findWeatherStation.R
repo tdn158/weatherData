@@ -6,8 +6,8 @@ findWeatherStation <- function(dataFrame, zipcodeColumn) {
   #   Function that takes a dataframe and column in the dataframe that contains zipcodes (input of form dataFrame$column)
   #   and returns two new columns:
   #   1. WeatherStation = column of closest weather station name to zipcode
-  #   2. IsAirport = column with value 0 if weather station is not airport and 1 if weather station is airport
-  #   These can then be used as input into the 
+  #   2. IsAirport = column with value 'id' if weather station is not airport and 'airportCode' if weather station is airport
+  #                   This is necessary for input into the weatherData package.
 
   #----- Create empty columns
   dataFrame$WeatherStation <- rep("", nrow(dataFrame))
