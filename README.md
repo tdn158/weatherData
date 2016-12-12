@@ -21,12 +21,14 @@ HouseNumber     Zipcode     NumberOccupants
 0005            xxxxx       2
 ....            ....        .
 
+##### Output data
 outputData = findWeatherStation(inputData, inputData$Zipcode)
 
 head(outputData)
-##### Output data
+
 HouseNumber     Zipcode     NumberOccupants     WeatherStation    isAirport 
 0004            xxxxx       4                   BSBNK             FALSE           
 0005            xxxxx       2                   LJUVF             FALSE
-....            ....        .                   ....              FALSE
+....            ....        .                   ....              ...
+
 </code></pre>
