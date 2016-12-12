@@ -11,4 +11,5 @@ User inputs a dataframe with a column of zipcodes and the function returns
 the original dataframe with two new columns -- WeatherStation and 
 isAirport. 
 
-
+<pre><code>This is a code block.
+</code></pre>
